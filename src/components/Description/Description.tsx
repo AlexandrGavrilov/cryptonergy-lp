@@ -33,7 +33,7 @@ const Description = () => {
                 viewport={{once: true, margin: isMobile ? '200px' : undefined}}
             >
                 <STitle>{t('description.What is Cryptonergy?')}</STitle>
-                <SDescription>{t('description.The Cryptonergy platform belongs to the categories of yield aggregators and optimizers in DeFi. As a yield aggregator, the platform brings together the most profitable and verified earning opportunities on DeFi platforms in one place, while the optimizer functions involve selecting the most advantageous investment option from all available ones.')}</SDescription>
+                <SDescription>{t('description.The Cryptonergy platform belongs to the categories of yield aggregators and optimizers in DeFi As a yield aggregator, the platform brings together the most profitable and verified earning opportunities on DeFi platforms in one place, while the optimizer functions involve selecting the most advantageous investment option from all available ones')}</SDescription>
             </STextWrapper>
             <SPyramidWrapper
                 initial="hidden"

@@ -34,7 +34,7 @@ const BillBoard = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('billboard.Connect your wallet and make your fist deposit.')}
+                    {t('billboard.Connect your wallet and make your fist deposit')}
                 </SDescription>
                 <SButton
                     variants={variants.text}

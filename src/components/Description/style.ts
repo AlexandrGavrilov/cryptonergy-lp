@@ -23,6 +23,9 @@ export const SAnimationWrapper = styled(motion.div)``;
 
 export const STextWrapper = styled(motion.div)`
   max-width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 `;
 
 export const STitle = styled(motion.h2)`

@@ -6,6 +6,10 @@ export const SWrapper = styled(motion.div)`
   width: 100%;
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    padding: 100px 10px;
+  };
 `;
 
 export const SContentWrapper = styled(motion.div)<{ bgSrc: string }>`
@@ -21,9 +25,13 @@ export const SContentWrapper = styled(motion.div)<{ bgSrc: string }>`
   gap: 10px;
   object-fit: cover;
 
+  @media only screen and (max-width: 600px) {
+    padding: 80px 30px;
+  };
 
   ${({bgSrc}) => css`
     background: url("${bgSrc}");
+    background-size: cover;
   `}
 `;
 
@@ -37,6 +45,10 @@ export const STitle = styled(motion.h2)`
   text-align: center;
   text-transform: capitalize;
   color: #fff;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 25px;
+  };
 `;
 
 export const SDescription = styled(motion.h4)`
@@ -49,6 +61,10 @@ export const SDescription = styled(motion.h4)`
   letter-spacing: -0.02em;
   opacity: 0.7;
   color: #fff;
+  
+  @media only screen and (max-width: 600px) {
+    font-size: 16px;
+  };
 `;
 
 export const SButton = styled(motion.a)`

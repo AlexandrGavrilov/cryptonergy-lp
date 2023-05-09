@@ -85,7 +85,7 @@ const DeFi = () => {
                         variants={variants.text}
                         transition={{duration: 0.3}}
                     >
-                        {t('defi.Platform offers a streamlined approach to investing in DeFi protocols, eliminating the need for complex research and allowing for maximum profits with proper risk management. Our DeFi ecosystem supports both established and cutting-edge protocols, ensuring seamless connectivity and compatibility.')}
+                        {t('defi.Platform offers a streamlined approach to investing in DeFi protocols, eliminating the need for complex research and allowing for maximum profits with proper risk management Our DeFi ecosystem supports both established and cutting-edge protocols, ensuring seamless connectivity and compatibility')}
                     </SDescription>
                 </STextWrapper>
             </SContentWrapper>

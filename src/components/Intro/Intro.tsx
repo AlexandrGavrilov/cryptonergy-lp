@@ -10,7 +10,7 @@ const Intro = () => {
             transition={{ duration: 1 }}
         >
             <STitle>{t('intro.Maximize Your Crypto Earnings with Cryptonergy')}</STitle>
-            <SDescription>{t('intro.Simple, Secure, and Profitable DeFi Investment Solutions.')}</SDescription>
+            <SDescription>{t('intro.Simple, Secure, and Profitable DeFi Investment Solutions')}</SDescription>
             <SButton href='#'>
                 <Image size="md" name="lightning"/>{t('intro.Launch App')}
             </SButton>
