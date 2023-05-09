@@ -1,4 +1,4 @@
-import {FC, useState} from "react";
+import {FC, useEffect, useState} from "react";
 import {useTranslation} from 'next-export-i18n'
 
 import Switch from "react-switch";
@@ -10,7 +10,7 @@ import {SActionsWrapper, SButton, SSwitcherWrapper, SWrapper} from "./style";
 import {useThemeStore} from "@/store/theme";
 
 const Header: FC = () => {
-    const { setTheme } = useThemeStore();
+    const { theme, setTheme } = useThemeStore();
 
     const {t} = useTranslation();
 
@@ -22,6 +22,9 @@ const Header: FC = () => {
         localStorage.setItem('theme', theme)
         setTheme(theme);
     }
+    useEffect(() => {
+        setChecked(theme === 'dark')
+    }, [theme]);
 
     return (
         <SWrapper>
