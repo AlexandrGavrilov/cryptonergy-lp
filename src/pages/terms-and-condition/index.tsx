@@ -1,6 +1,6 @@
 import Bg from "@/components/Bg";
 
-import {SH1, SText, SShadow, SH3, SH2, SWrapper, STextWrapper,} from "./style";
+import {SH1, SText, SShadow, SH3, SH2, SWrapper, STextWrapper,} from "@/style/terms-and-condition";
 
 
 export default function Terms() {

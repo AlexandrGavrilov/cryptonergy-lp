@@ -11,7 +11,7 @@ import DetectDevice from "@/components/DetectDevice";
 import Head from "next/head";
 
 import themes from '../theme';
-import {SWrapper} from "./style";
+import {SWrapper} from "../style/main";
 import './globals.css';
 
 const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => {

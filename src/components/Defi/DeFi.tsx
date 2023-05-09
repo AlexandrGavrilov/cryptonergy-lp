@@ -17,7 +17,7 @@ import {
 
 import {variants, viewItems} from './constants';
 import {useThemeStore} from "@/store/theme";
-import {useWindowSize} from "@/pages/hooks/useWindowSize";
+import {useWindowSize} from "@/hooks/useWindowSize";
 
 const DeFi = () => {
     const {t} = useTranslation('defi');
