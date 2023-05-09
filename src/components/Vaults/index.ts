@@ -1,3 +1,3 @@
-import Waults from './Waults';
+import Vaults from './Vaults';
 
-export default Waults;
+export default Vaults;

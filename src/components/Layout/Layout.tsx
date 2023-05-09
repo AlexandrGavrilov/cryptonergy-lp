@@ -1,16 +1,16 @@
-import { FC, PropsWithChildren } from "react";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { useTranslation } from 'next-i18next'
+import {FC, PropsWithChildren} from "react";
 
-const Layout: FC<PropsWithChildren> = ({ children, ...rest }) => {
+import Header from "@/components/Layout/Header";
+import {SWrapper} from "@/components/Layout/style";
+import Footer from "@/components/Layout/Footer";
 
-    const { t } = useTranslation('common');
+const Layout: FC<PropsWithChildren> = ({children}) => {
     return (
-        <>
-            {t('test')}
+        <SWrapper>
+            <Header/>
             <main>{children}</main>
-            asdasdas
-        </>
+            <Footer/>
+        </SWrapper>
     );
 }
 

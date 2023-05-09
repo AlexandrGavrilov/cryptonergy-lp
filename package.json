@@ -6,17 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "@types/node": "20.1.0",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
+    "@types/styled-components": "^5.1.26",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
+    "framer-motion": "^10.12.8",
+    "i18next": "^22.4.15",
     "next": "13.4.1",
+    "next-i18next": "^13.2.2",
+    "node-device-detector": "^2.0.14",
     "react": "18.2.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-i18next": "^12.2.2",
+    "react-select": "^5.7.3",
+    "react-switch": "^7.0.0",
+    "styled-components": "^5.3.10",
+    "typescript": "5.0.4",
+    "zustand": "^4.3.8"
   }
 }

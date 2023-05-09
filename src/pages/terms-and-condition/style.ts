@@ -1,6 +1,7 @@
 import styled, {css} from "styled-components";
+import {motion} from "framer-motion";
 
-export const SWrapper = styled.div`
+export const SWrapper = styled(motion.div)`
   height: auto;
   padding: 170px 180px 100px;
   z-index: 1;
@@ -34,7 +35,7 @@ export const SShadow = styled.div`
   `}
 `;
 
-export const STextWrapper = styled.div`
+export const STextWrapper = styled(motion.div)`
   z-index: 10;
   max-width: 840px;
   opacity: 0.9;

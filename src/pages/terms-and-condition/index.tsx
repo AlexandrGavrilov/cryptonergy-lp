@@ -3,12 +3,16 @@ import Bg from "@/components/Bg";
 import {SH1, SText, SShadow, SH3, SH2, SWrapper, STextWrapper,} from "./style";
 
 
-export default function PrivacyPolicy() {
+export default function Terms() {
     return (
         <SWrapper>
             <SShadow/>
             <Bg/>
-            <STextWrapper>
+            <STextWrapper
+                initial={{ y: 400, opacity: 0}}
+                animate={{ y: 0, opacity: 1}}
+                transition={{ duration: 1}}
+            >
                 <SH1>
                     Notificore LLC Privacy Policy
                 </SH1>
