@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 
 import Image from "@/components/Image";
 import {
@@ -19,7 +19,7 @@ import {useHelperStore} from "@/store/helper";
 import { pyramidVariants } from './constants';
 
 const Description = () => {
-    const {t} = useTranslation('description');
+    const {t} = useTranslation();
 
     const {isMobile} = useHelperStore();
     const {theme} = useThemeStore();
@@ -32,8 +32,8 @@ const Description = () => {
                 transition={{duration: 0.5}}
                 viewport={{once: true, margin: isMobile ? '200px' : undefined}}
             >
-                <STitle>{t('What is Cryptonergy?')}</STitle>
-                <SDescription>{t('The Cryptonergy platform belongs to the categories of yield aggregators and optimizers in DeFi. As a yield aggregator, the platform brings together the most profitable and verified earning opportunities on DeFi platforms in one place, while the optimizer functions involve selecting the most advantageous investment option from all available ones.')}</SDescription>
+                <STitle>{t('description.What is Cryptonergy?')}</STitle>
+                <SDescription>{t('description.The Cryptonergy platform belongs to the categories of yield aggregators and optimizers in DeFi. As a yield aggregator, the platform brings together the most profitable and verified earning opportunities on DeFi platforms in one place, while the optimizer functions involve selecting the most advantageous investment option from all available ones.')}</SDescription>
             </STextWrapper>
             <SPyramidWrapper
                 initial="hidden"
@@ -62,7 +62,7 @@ const Description = () => {
                             variants={pyramidVariants.icon}
                             transition={{delay: 0.5, duration: 1}}
                         >
-                            {t('Yield Aggregator')}
+                            {t('description.Yield Aggregator')}
                         </SText>
                     </SPyramidL1>,
                     <SPyramidL2
@@ -99,7 +99,7 @@ const Description = () => {
                             variants={pyramidVariants.icon}
                             transition={{delay: 0.5, duration: 1}}
                         >
-                            {t('Reward Compounding')}
+                            {t('description.Reward Compounding')}
                         </SText>
                     </SPyramidL2>,
                     <SPyramidL3
@@ -152,7 +152,7 @@ const Description = () => {
                             variants={pyramidVariants.icon}
                             transition={{delay: 0.5, duration: 1}}
                         >
-                            {t('Liquidity Farming')}
+                            {t('description.Liquidity Farming')}
                         </SText>
                     </SPyramidL3>,
                     <SPyramidL4
@@ -213,7 +213,7 @@ const Description = () => {
                             variants={pyramidVariants.icon}
                             transition={{delay: 0.5, duration: 1}}
                         >
-                            {t('Lending and Swap Protocols')}
+                            {t('description.Lending and Swap Protocols')}
                         </SText>
                     </SPyramidL4>
                 ]}

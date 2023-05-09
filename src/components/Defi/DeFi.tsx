@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 
 import Image from "@/components/Image";
 import {useHelperStore} from "@/store/helper";
@@ -20,7 +20,7 @@ import {useThemeStore} from "@/store/theme";
 import {useWindowSize} from "@/hooks/useWindowSize";
 
 const DeFi = () => {
-    const {t} = useTranslation('defi');
+    const {t} = useTranslation();
 
     const {isMobile} = useHelperStore();
     const {theme} = useThemeStore();
@@ -79,13 +79,13 @@ const DeFi = () => {
                         variants={variants.text}
                         transition={{duration: 0.3}}
                     >
-                        {t('Cryptonergy DeFi Ecosystem')}
+                        {t('defi.Cryptonergy DeFi Ecosystem')}
                     </STitle>
                     <SDescription
                         variants={variants.text}
                         transition={{duration: 0.3}}
                     >
-                        {t('Platform offers a streamlined approach to investing in DeFi protocols, eliminating the need for complex research and allowing for maximum profits with proper risk management. Our DeFi ecosystem supports both established and cutting-edge protocols, ensuring seamless connectivity and compatibility.')}
+                        {t('defi.Platform offers a streamlined approach to investing in DeFi protocols, eliminating the need for complex research and allowing for maximum profits with proper risk management. Our DeFi ecosystem supports both established and cutting-edge protocols, ensuring seamless connectivity and compatibility.')}
                     </SDescription>
                 </STextWrapper>
             </SContentWrapper>

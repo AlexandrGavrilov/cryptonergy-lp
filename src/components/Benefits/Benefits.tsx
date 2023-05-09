@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 import {useHelperStore} from "@/store/helper";
 import Image from "@/components/Image";
 import {
@@ -14,7 +14,7 @@ import {
 import {blocks, variants} from "./constants";
 
 const Benefits = () => {
-    const {t} = useTranslation('benefits');
+    const {t} = useTranslation();
     const { isMobile } = useHelperStore();
 
     return (
@@ -30,13 +30,13 @@ const Benefits = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Maximum yield at your fingertips')}
+                    {t('benefits.Maximum yield at your fingertips')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Everything you need in one platform')}
+                    {t('benefits.Everything you need in one platform')}
                 </SDescription>
             </STextWrapper>
             <SBlocksWrapper

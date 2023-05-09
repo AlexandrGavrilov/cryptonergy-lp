@@ -4,13 +4,13 @@ import {useHelperStore} from "@/store/helper";
 import {useThemeStore} from "@/store/theme";
 import Counter from "@/components/Counter";
 import {useEffect, useState} from "react";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 
 export const Chart = ({ value }: any) => {
     const [prevValue, setPrevValue] = useState(value);
     const {isMobile} = useHelperStore();
     const {theme} = useThemeStore();
-    const {t} = useTranslation('calculator');
+    const {t} = useTranslation();
 
     useEffect(() => {
         setPrevValue(value);
@@ -26,7 +26,7 @@ export const Chart = ({ value }: any) => {
         >
             <SChartTextWrapper>
                 <SChartLabel>
-                    {t('In 36 months you will have')}
+                    {t('calculator.In 36 months you will have')}
                 </SChartLabel>
                 <SChartValue>
                     $<Counter from={prevValue} to={value} fractionDigits={2}/>

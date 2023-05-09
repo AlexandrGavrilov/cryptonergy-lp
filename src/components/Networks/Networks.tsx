@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 
 import Image from "@/components/Image";
 import {blocks, variants} from './constants';
@@ -6,7 +6,7 @@ import {SWrapper, SBlockWrapper, SBlocksWrapper, SBlockText, STitle} from './sty
 import {useHelperStore} from "@/store/helper";
 
 const Networks = () => {
-    const {t} = useTranslation('networks')
+    const {t} = useTranslation()
     const {isMobile} = useHelperStore();
 
     return (
@@ -21,7 +21,7 @@ const Networks = () => {
                 variants={variants.text}
                 transition={{duration: 0.3}}
             >
-                {t('Supported networks')}
+                {t('networks.Supported networks')}
             </STitle>
             <SBlocksWrapper
                 variants={variants.blockWrapper}

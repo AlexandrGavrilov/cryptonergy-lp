@@ -1,0 +1,86 @@
+{
+  "benefits": {
+    "Maximum yield at your fingertips": "Maximum yield at your fingertips",
+    "Everything you need in one platform": "Everything you need in one platform",
+    "Best risk/profit ratio": "Best risk/profit ratio",
+    "We strive to maintain a strong balance between risky and profitable investments to ensure maximum returns.": "Best risk/profit ratio",
+    "No minimum balance required!": "You can start using service with almost zero balance without.",
+    "No lock-ins - withdraw anytime.": "You can easily withdraw your profit at any time with no penalty.",
+    "Rebalancing & Diversification": "Rebalancing & Diversification",
+    "You'll to achieve the APY on the market by diversifying & rebalancing funds across trusted pools and DApps.": "You'll to achieve the APY on the market by diversifying & rebalancing funds across trusted pools and DApps.",
+    "Deep analytics": "Deep analytics",
+    "We give you a detail overview of key performace indicators like APY, TVL, TVR, volume of vault.": "We give you a detail overview of key performace indicators like APY, TVL, TVR, volume of vault.",
+    "Daily compound": "Daily compound",
+    "We automatically sells all rewards and reinvests profits.": "We automatically sells all rewards and reinvests profits.",
+    "Cost optimization": "We provide the best farming opportunities to everyone.",
+    "Simplicity & User-friendly": "Simplicity & User-friendly",
+    "Cryptonergy makes earn easy to buy and sell crypto using our platform.": "Cryptonergy makes earn easy to buy and sell crypto using our platform.",
+    "24/7 Monitoring": "24/7 Monitoring",
+    "Cryptonergy takes care of your positions 24/7, ensuring they are always optimized.": "Cryptonergy takes care of your positions 24/7, ensuring they are always optimized."
+  },
+  "billboard": {
+    "Earn passive income with crypto": "Earn passive income with crypto",
+    "Connect your wallet and make your fist deposit.": "Connect your wallet and make your fist deposit.",
+    "Launch App": "Launch App"
+  },
+  "calculator": {
+    "In 36 months you will have": "In 36 months you will have",
+    "Stablecoins Vault": "Stablecoins Vault",
+    "Top Up Amount": "Top Up Amount",
+    "Start Earning": "Start Earning",
+    "Calculate your future returns": "Calculate your future returns",
+    "Select an asset and enter an amount to see how much your holdings will be worth in the future!": "Select an asset and enter an amount to see how much your holdings will be worth in the future!"
+  },
+  "defi": {
+    "Cryptonergy DeFi Ecosystem": "Cryptonergy DeFi Ecosystem",
+    "Platform offers a streamlined approach to investing in DeFi protocols, eliminating the need for complex research and allowing for maximum profits with proper risk management. Our DeFi ecosystem supports both established and cutting-edge protocols, ensuring seamless connectivity and compatibility.": "Platform offers a streamlined approach to investing in DeFi protocols, eliminating the need for complex research and allowing for maximum profits with proper risk management. Our DeFi ecosystem supports both established and cutting-edge protocols, ensuring seamless connectivity and compatibility."
+  },
+  "description": {
+    "What is Cryptonergy?": "What is Cryptonergy?",
+    "Yield Aggregator": "Yield Aggregator",
+    "Reward Compounding": "Reward Compounding",
+    "Liquidity Farming": "Liquidity Farming",
+    "Lending and Swap Protocols": "Lending and Swap Protocols",
+    "The Cryptonergy platform belongs to the categories of yield aggregators and optimizers in DeFi. As a yield aggregator, the platform brings together the most profitable and verified earning opportunities on DeFi platforms in one place, while the optimizer functions involve selecting the most advantageous investment option from all available ones.": "The Cryptonergy platform belongs to the categories of yield aggregators and optimizers in DeFi. As a yield aggregator, the platform brings together the most profitable and verified earning opportunities on DeFi platforms in one place, while the optimizer functions involve selecting the most advantageous investment option from all available ones."
+  },
+  "footer": {
+    "Privacy policy": "Privacy policy",
+    "Terms and condition": "Terms and condition"
+  },
+  "header": {
+    "Go to App": "Go to App"
+  },
+  "howItWorks": {
+    "how it works?": "how it works?",
+    "Relax and enjoy your boosted and optimized yield": "Relax and enjoy your boosted and optimized yield",
+    "Step 1?": "Step 1",
+    "Step 2?": "Step 2",
+    "Step 3?": "Step 3",
+    "Step 4?": "Step 4",
+    "Step 5?": "Step 5",
+    "Register on Cryptonergy and connect the crypto wallet that you use.": "Register on Cryptonergy and connect the crypto wallet that you use.",
+    "Invest your token in select matched vault with the right yield and riskiness.": "Invest your token in select matched vault with the right yield and riskiness.",
+    "Automatically begin earning with highest APY on the market. Enjoy!": "Automatically begin earning with highest APY on the market. Enjoy!",
+    "Your interest is used to purchase more of the asset and reinvested automatically.": "Your interest is used to purchase more of the asset and reinvested automatically.",
+    "Withdraw your earn by token at any time.": "Withdraw your earn by token at any time."
+  },
+  "intro": {
+    "Maximize Your Crypto Earnings with Cryptonergy": "Maximize Your Crypto Earnings with Cryptonergy",
+    "Simple, Secure, and Profitable DeFi Investment Solutions.": "Simple, Secure, and Profitable DeFi Investment Solutions.",
+    "Launch App": "Launch App"
+  },
+  "networks": {
+    "Supported networks": "Supported networks"
+  },
+  "vault": {
+    "Current yield vaults": "Current yield vaults",
+    "Featured Vault": "Featured Vault",
+    "Vault": "Vault",
+    "Stable Vault": "Stable Vault",
+    "Core Vault": "Core Vault",
+    "Boost Vault": "Boost Vault",
+    "Tokens": "Tokens",
+    "ANY": "ANY",
+    "Make Deposit": "Make Deposit"
+  }
+}

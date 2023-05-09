@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 import {useState} from "react";
 
 import Image from "@/components/Image";
@@ -28,7 +28,7 @@ import {
 } from './style';
 
 const Vaults = () => {
-    const {t} = useTranslation('vault');
+    const {t} = useTranslation();
     const [isAnimationComplete, setIsAnimationComplete] = useState<Record<string, boolean>>({});
 
     const {theme} = useThemeStore();
@@ -49,7 +49,7 @@ const Vaults = () => {
                     transition={{duration: 0.3}}
                     viewport={{once: true, margin: isMobile ? '300px' : undefined}}
                 >
-                    {t('Current yield vaults')}
+                    {t('vault.Current yield vaults')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
@@ -58,7 +58,7 @@ const Vaults = () => {
                     transition={{delay: 0.3, duration: 0.3}}
                     viewport={{once: true, margin: isMobile ? '300px' : undefined}}
                 >
-                    {t('Featured Vault')}
+                    {t('vault.Featured Vault')}
                 </SDescription>
             </STextWrapper>
             <SBlocksWrapper
@@ -80,7 +80,7 @@ const Vaults = () => {
                             <SBlockHeaderWrapper>
                                 <SBlockTitleWrapper>
                                     <SBlockTitleLabel>
-                                        {t('Vault')}
+                                        {t('vault.Vault')}
                                     </SBlockTitleLabel>
                                     <SBlockTitle>
                                         {title}
@@ -88,7 +88,7 @@ const Vaults = () => {
                                 </SBlockTitleWrapper>
                                 <SBlockPercentWrapper>
                                     <SBlockPercentLabel>
-                                        {t('ANY')}
+                                        {t('vault.ANY')}
                                     </SBlockPercentLabel>
                                     <SBlockPercent>
                                         {isAnimationComplete[title] ? <Counter start={isAnimationComplete[title]} to={percent}/> : 0}%
@@ -120,7 +120,7 @@ const Vaults = () => {
                             </SBodyWrapper>
                         </SContentWrapper>
                         <SButton layout href='#'>
-                            {t('Make Deposit')}
+                            {t('vault.Make Deposit')}
                         </SButton>
                     </SBlockWrapper>
                 ))}

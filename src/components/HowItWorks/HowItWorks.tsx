@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 
 import Image from "@/components/Image";
 
@@ -16,7 +16,7 @@ import {useHelperStore} from "@/store/helper";
 
 import { blocks, variants } from './constants';
 const HowItWorks = () => {
-    const {t} = useTranslation('howItWorks');
+    const {t} = useTranslation();
 
     const {isMobile} = useHelperStore();
 
@@ -30,7 +30,7 @@ const HowItWorks = () => {
                     transition={{duration: 0.5}}
                     viewport={{once: true, margin: isMobile ? '150px' : undefined}}
                 >
-                    {t('how it works?')}
+                    {t('howItWorks.how it works?')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
@@ -39,7 +39,7 @@ const HowItWorks = () => {
                     transition={{duration: 0.5}}
                     viewport={{once: true, margin: isMobile ? '150px' : undefined}}
                 >
-                    {t('Relax and enjoy your boosted and optimized yield')}
+                    {t('howItWorks.Relax and enjoy your boosted and optimized yield')}
                 </SDescription>
             </STextWrapper>
             <SBlocksWrapper

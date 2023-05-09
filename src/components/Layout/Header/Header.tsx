@@ -1,5 +1,5 @@
-import {FC, useEffect, useState} from "react";
-import {useTranslation} from 'next-i18next'
+import {FC, useState} from "react";
+import {useTranslation} from 'next-export-i18n'
 
 import Switch from "react-switch";
 
@@ -12,7 +12,7 @@ import {useThemeStore} from "@/store/theme";
 const Header: FC = () => {
     const { setTheme } = useThemeStore();
 
-    const {t} = useTranslation('header');
+    const {t} = useTranslation();
 
     const [checked, setChecked] = useState(false);
 
@@ -45,7 +45,7 @@ const Header: FC = () => {
                         onChange={onChange} checked={checked}
                     />
                 </SSwitcherWrapper>
-                <SButton href='#'>{t('Go to App')}</SButton>
+                <SButton href='#'>{t('header.Go to App')}</SButton>
             </SActionsWrapper>
         </SWrapper>
     );

@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 import {ChangeEvent, useState} from "react";
 
 import {useHelperStore} from "@/store/helper";
@@ -28,7 +28,7 @@ const Calculator = () => {
     const [selectValue, setSelectValue] = useState<typeof options[0]>(options[0]);
     const [inputValue, setInputValue] = useState(1000);
     const [profitValue, setProfitValue] = useState(1570);
-    const {t} = useTranslation('calculator');
+    const {t} = useTranslation();
     const {isMobile} = useHelperStore();
 
     const optionData = optionsData[+selectValue.value];
@@ -61,13 +61,13 @@ const Calculator = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Calculate your future returns')}
+                    {t('calculator.Calculate your future returns')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Select an asset and enter an amount to see how much your holdings will be worth in the future!')}
+                    {t('calculator.Select an asset and enter an amount to see how much your holdings will be worth in the future!')}
                 </SDescription>
                 <SInputsWrapper
                     variants={variants.text}
@@ -92,13 +92,13 @@ const Calculator = () => {
                             ))}
                         </SelectedOptionTokensWrapper>
                         <SInputLabel>
-                            {t('Stablecoins Vault')}
+                            {t('calculator.Stablecoins Vault')}
                         </SInputLabel>
                         <Select onChange={onSelectChange} value={selectValue}/>
                     </SInputWrapper>
                     <SInputWrapper>
                         <SInputLabel>
-                            {t('Top Up Amount')}
+                            {t('calculator.Top Up Amount')}
                         </SInputLabel>
                         <SInput value={inputValue} onChange={onInputChange} type="number"/>
                         <SInputBefore>$</SInputBefore>
@@ -108,7 +108,7 @@ const Calculator = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Start Earning')}
+                    {t('calculator.Start Earning')}
                 </SButton>
             </SCalculatorWrapper>
             <Chart value={profitValue}/>

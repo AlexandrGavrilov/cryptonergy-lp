@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "next-export-i18n";
 
 import Image from "@/components/Image";
 import {useThemeStore} from "@/store/theme";
@@ -8,7 +8,7 @@ import {SWrapper, SButton, STitle, SDescription, SContentWrapper} from "./style"
 
 import { variants } from './constants';
 const BillBoard = () => {
-    const {t} = useTranslation('billboard');
+    const {t} = useTranslation();
     const { theme } = useThemeStore();
     const { isMobile } = useHelperStore();
 
@@ -28,19 +28,19 @@ const BillBoard = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Earn passive income with crypto')}
+                    {t('billboard.Earn passive income with crypto')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('Connect your wallet and make your fist deposit.')}
+                    {t('billboard.Connect your wallet and make your fist deposit.')}
                 </SDescription>
                 <SButton
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    <Image size="md" name="lightning"/>{t('Launch App')}
+                    <Image size="md" name="lightning"/>{t('billboard.Launch App')}
                 </SButton>
             </SContentWrapper>
         </SWrapper>
