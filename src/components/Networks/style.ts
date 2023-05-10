@@ -52,7 +52,7 @@ export const SBlockWrapper = styled(motion.div)`
   border-radius: 12px;
 
   @media only screen and (max-width: 600px) {
-    width: 48%;
+    width: 47%;
   };
 
   ${({ theme }) => css`
