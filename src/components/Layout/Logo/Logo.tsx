@@ -10,7 +10,7 @@ const Logo = () => {
 
     const { isMobile } = useHelperStore()
 
-    const scale = isMobile ? 0.9 : 1;
+    const scale = isMobile ? 0.8 : 1;
     const y = isMobile ? -10 : 0;
     const x = isMobile ? 20 : 0;
     return (

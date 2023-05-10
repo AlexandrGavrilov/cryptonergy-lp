@@ -40,6 +40,7 @@ export const SButton = styled.a`
   font-size: 12px;
   line-height: 16px;
   text-decoration: inherit;
+  white-space: nowrap;
 
   display: flex;
   justify-content: center;
