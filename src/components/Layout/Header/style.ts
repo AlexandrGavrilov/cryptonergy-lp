@@ -64,6 +64,10 @@ export const SActionsWrapper = styled(motion.div)`
   align-content: center;
   align-items: center;  
   gap: 21px;
+
+  @media only screen and (max-width: 600px) {
+    gap: 10px;
+  }
 `;
 
 

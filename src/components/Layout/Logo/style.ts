@@ -7,11 +7,6 @@ export const SLogoWrapper = styled(motion.div)`
   align-content: center;
   gap: 8px;
   width: auto;
-
-  @media only screen and (max-width: 600px) {
-    padding: 24px 15px 0;
-    max-width: 100vw;
-  }
 `;
 
 export const SLogoTitleWrapper = styled(motion.div)`
