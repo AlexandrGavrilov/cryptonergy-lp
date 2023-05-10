@@ -5,7 +5,7 @@ export const SWrapper = styled(motion.div)<{ isReverseBg: boolean }>`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 180px;
+  padding: 80px 0;
   width: 100%;
   gap: 40px;
 

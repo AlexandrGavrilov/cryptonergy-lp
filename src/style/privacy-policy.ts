@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 
 export const SWrapper = styled(motion.div)`
   height: auto;
-  padding: 170px 180px 100px;
+  padding: 170px 0 100px;
   z-index: 1;
   min-height: 700px;
   position: relative;

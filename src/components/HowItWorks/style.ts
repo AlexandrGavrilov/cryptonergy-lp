@@ -2,7 +2,7 @@ import styled, {css} from "styled-components";
 import {motion} from "framer-motion";
 
 export const SWrapper = styled(motion.div)`
-  padding: 100px 180px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
 

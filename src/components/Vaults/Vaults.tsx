@@ -88,7 +88,7 @@ const Vaults = () => {
                                 </SBlockTitleWrapper>
                                 <SBlockPercentWrapper>
                                     <SBlockPercentLabel>
-                                        {t('vault.ANY')}
+                                        {t('vault.APY')}
                                     </SBlockPercentLabel>
                                     <SBlockPercent>
                                         {isAnimationComplete[title] ? <Counter start={isAnimationComplete[title]} to={percent}/> : 0}%

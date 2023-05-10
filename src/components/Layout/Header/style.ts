@@ -45,7 +45,7 @@ export const SButton = styled.a`
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 7px 12px 9px;
+  padding: 7px 12px;
   color: #17171A;
   border-radius: 44px;
   background: #fff;

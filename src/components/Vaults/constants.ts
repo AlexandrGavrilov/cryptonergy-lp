@@ -36,7 +36,7 @@ export const blocks = [
         ],
     },
     {
-        title: 'Boost Vault',
+        title: 'Energy Vault',
         percent: 45,
         tokens: [
             {

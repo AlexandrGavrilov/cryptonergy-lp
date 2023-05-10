@@ -2,14 +2,13 @@ import styled, {css} from "styled-components";
 import {motion} from "framer-motion";
 
 export const SWrapper = styled(motion.div)`
-  //scroll-snap-align: center;
   display: flex;
   height: auto;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 1680px;
   width: 100%;
-  padding: 40px 180px 0;
+  padding: 40px 0 0;
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;

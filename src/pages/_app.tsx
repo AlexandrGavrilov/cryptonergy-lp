@@ -22,7 +22,7 @@ const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => 
         <SWrapper>
             <Head>
                 <title>
-                    Miximize your crypto earnings with Cryptonergy
+                    Maximize your crypto earnings with Cryptonergy
                 </title>
                 <meta
                     name="description"

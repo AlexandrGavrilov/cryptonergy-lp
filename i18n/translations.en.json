@@ -78,9 +78,9 @@
     "Vault": "Vault",
     "Stable Vault": "Stable Vault",
     "Core Vault": "Core Vault",
-    "Boost Vault": "Boost Vault",
+    "Energy Vault": "Energy Vault",
     "Tokens": "Tokens",
-    "ANY": "ANY",
+    "APY": "APY",
     "Make Deposit": "Make Deposit"
   }
 }

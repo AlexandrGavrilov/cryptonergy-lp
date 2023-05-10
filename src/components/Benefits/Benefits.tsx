@@ -49,23 +49,23 @@ const Benefits = () => {
                 {blocks.map(({ title, img, description}) => (
                     <SBlockWrapper
                         variants={variants.blockWrapper}
-                        transition={{duration: 0.5,  staggerChildren: 0.3}}
+                        transition={{duration: 0.3,  staggerChildren: 0.3}}
                         key={img}
                     >
                         <Image
                             variants={variants.blockItem}
-                            transition={{duration: 0.6}}
+                            transition={{duration: 0.3}}
                             name={img}
                         />
                         <SBlockTitle
                             variants={variants.blockItem}
-                            transition={{duration: 0.4}}
+                            transition={{duration: 0.3}}
                         >
                             {t(title)}
                         </SBlockTitle>
                         <SBlockDescription
                             variants={variants.blockItem}
-                            transition={{duration: 0.4}}
+                            transition={{duration: 0.3}}
                         >
                             {t(description)}
                         </SBlockDescription>

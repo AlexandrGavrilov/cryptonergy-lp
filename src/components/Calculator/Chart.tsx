@@ -21,7 +21,7 @@ export const Chart = ({ value }: any) => {
             variants={variants.text}
             initial="hidden"
             whileInView="visible"
-            transition={{duration: 1}}
+            transition={{duration: 0.5}}
             viewport={{once: true, margin: isMobile ? '200px' : undefined}}
         >
             <SChartTextWrapper>

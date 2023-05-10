@@ -3,14 +3,21 @@ import {useThemeStore} from "@/store/theme";
 
 import {SLogoWrapper, SLogoTitleWrapper} from "./style";
 import Link from "next/link";
+import {useHelperStore} from "@/store/helper";
 
 const Logo = () => {
     const {theme} = useThemeStore();
+
+    const { isMobile } = useHelperStore()
+
+    const scale = isMobile ? 0.9 : 1;
+    const y = isMobile ? -10 : 0;
+    const x = isMobile ? 20 : 0;
     return (
         <Link href='/'>
             <SLogoWrapper
-                initial={{opacity: 0, x: -100}}
-                animate={{opacity: 1, x: 0}}
+                initial={{opacity: 0, x: -100 - x, scale, y}}
+                animate={{opacity: 1, x: 0 - x, scale, y}}
                 transition={{duration: 1}}
             >
                 <SLogoTitleWrapper>

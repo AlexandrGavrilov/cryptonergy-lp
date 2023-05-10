@@ -6,7 +6,7 @@ export const SWrapper = styled(motion.div)`
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 100px 180px;
+  padding: 100px 0;
   gap: 95px;
 
   @media only screen and (max-width: 600px) {

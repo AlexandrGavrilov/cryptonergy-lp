@@ -2,13 +2,15 @@ import styled, {css} from "styled-components";
 import {motion} from "framer-motion";
 
 export const SWrapper = styled(motion.div)`
-  margin: 100px 180px;
+  margin: 100px 0;
   width: 100%;
   display: flex;
   justify-content: center;
 
   @media only screen and (max-width: 600px) {
-    padding: 100px 10px;
+    margin: 0;
+    padding-bottom: 100px;
+    max-width: calc(100vw - 20px);
   };
 `;
 

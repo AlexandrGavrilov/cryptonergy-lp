@@ -6,11 +6,12 @@ import {useHelperStore} from "@/store/helper";
 
 import {SWrapper, SButton, STitle, SDescription, SContentWrapper} from "./style";
 
-import { variants } from './constants';
+import {variants} from './constants';
+
 const BillBoard = () => {
     const {t} = useTranslation();
-    const { theme } = useThemeStore();
-    const { isMobile } = useHelperStore();
+    const {theme} = useThemeStore();
+    const {isMobile} = useHelperStore();
 
     const bgSrc = theme === 'dark' ? '/assets/img/bgBillboardDark.svg' : '/assets/img/bgBillboardLight.svg';
 

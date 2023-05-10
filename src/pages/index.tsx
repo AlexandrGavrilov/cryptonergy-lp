@@ -29,24 +29,3 @@ export default function Home() {
         </SMain>
     )
 }
-
-// export async function getStaticProps({locale}: any) {
-//     return {
-//         props: {
-//             ...(await serverSideTranslations(locale, [
-//                 'common',
-//                 'header',
-//                 'intro',
-//                 'description',
-//                 'howItWorks',
-//                 'vault',
-//                 'calculator',
-//                 'benefits',
-//                 'billboard',
-//                 'networks',
-//                 'footer',
-//             ])),
-//             // Will be passed to the page component as props
-//         },
-//     }
-// }

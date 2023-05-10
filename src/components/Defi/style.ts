@@ -2,7 +2,7 @@ import styled, {css} from "styled-components";
 import {motion} from "framer-motion";
 
 export const SWrapper = styled(motion.div)`
-  padding: 0 180px;
+  padding: 0 0;
   width: 100%;
   display: flex;
   justify-content: center;
