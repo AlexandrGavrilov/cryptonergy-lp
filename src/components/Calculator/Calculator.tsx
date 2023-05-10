@@ -40,7 +40,7 @@ const Calculator = () => {
     }
 
     const onInputChange = (event: ChangeEvent<HTMLInputElement>) => {
-        if (isNaN(+event.target.value)) return;
+        if (isNaN(+event.target.value) || event.target.value.length > 9) return;
 
         const { percent } = optionData;
         const value = +event.target.value;
