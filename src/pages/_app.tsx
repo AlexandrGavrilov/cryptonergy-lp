@@ -21,6 +21,14 @@ const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => 
     return (
         <SWrapper>
             <Head>
+                <title>
+                    Miximize your crypto earnings with Cryptonergy
+                </title>
+                <meta
+                    name="description"
+                    content="Simple, Secure and Profitable DeFi Investment solutions that helps you miximize your earnings."
+                    key="desc"
+                />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,6 +42,8 @@ const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => 
                 <link rel="preload" href="/assets/img/logoLight.svg" as="image"/>
                 <link rel="preload" href="/assets/img/logoTitleLight.svg" as="image"/>
                 <link rel="preload" href="/assets/img/logoTitleDark.svg" as="image"/>
+
+                <link rel="shortcut icon" href="/public/assets/img/favicon.ico" />
             </Head>
             <DetectDevice/>
             <ThemeProvider theme={themes[theme]}>
