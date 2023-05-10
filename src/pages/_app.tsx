@@ -43,7 +43,7 @@ const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => 
                 <link rel="preload" href="/assets/img/logoTitleLight.svg" as="image"/>
                 <link rel="preload" href="/assets/img/logoTitleDark.svg" as="image"/>
 
-                <link rel="shortcut icon" href="/public/assets/img/favicon.ico" />
+                <link rel="shortcut icon" href="/assets/img/favicon.ico" />
             </Head>
             <DetectDevice/>
             <ThemeProvider theme={themes[theme]}>

@@ -22,7 +22,6 @@ import {
     SelectedOptionTokensWrapper,
     SOptionTokenWrapper
 } from './style';
-import {OnChangeValue} from "react-select";
 
 const Calculator = () => {
     const [selectValue, setSelectValue] = useState<typeof options[0]>(options[0]);
@@ -41,6 +40,8 @@ const Calculator = () => {
     }
 
     const onInputChange = (event: ChangeEvent<HTMLInputElement>) => {
+        if (isNaN(+event.target.value)) return;
+
         const { percent } = optionData;
         const value = +event.target.value;
         const profit = value * (percent / 100) * 3;
@@ -100,7 +101,7 @@ const Calculator = () => {
                         <SInputLabel>
                             {t('calculator.Top Up Amount')}
                         </SInputLabel>
-                        <SInput value={inputValue} onChange={onInputChange} type="number"/>
+                        <SInput value={inputValue} onChange={onInputChange} type="text"/>
                         <SInputBefore>$</SInputBefore>
                     </SInputWrapper>
                 </SInputsWrapper>
