@@ -15,12 +15,12 @@ export const SWrapper = styled(motion.div)`
   background: rgba(0, 0, 0, 0);
 
   @media only screen and (max-width: 600px) {
+    min-height: 100vh;
     padding-top: 0;
     padding-bottom: 50px;
     max-width: 350px;
     gap: 10px;
     justify-content: center;
-    min-height: calc(100vh - 75px);
   }
 `;
 

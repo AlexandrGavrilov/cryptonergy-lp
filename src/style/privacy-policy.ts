@@ -14,6 +14,10 @@ export const SWrapper = styled(motion.div)`
   align-content: center;
   align-items: center;
 
+  @media only screen and (max-width: 600px) {
+    padding: 170px 15px 100px;
+  };
+
   ${({ theme }) => css`
     background: ${theme.bg.main};
     color: ${theme.color.main}
@@ -83,5 +87,11 @@ export const SText = styled.div`
   
   ol {
     transform: translateX(18px);
+    
+    li {
+      @media only screen and (max-width: 600px) {
+        max-width: calc(100vw - 40px);
+      };
+    }
   }
 `;
