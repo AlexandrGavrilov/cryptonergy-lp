@@ -202,10 +202,6 @@ export const STokenWrapper = styled(motion.div)`
   width: fit-content;
   margin: 2px 0;
 
-  div {
-    border-radius: 50%;
-  };
-
   ${({theme}) => css`
     border: 1px solid ${theme.border.main};
     background: ${theme.bg.main};

@@ -68,7 +68,7 @@ export const blocks = [
                 icon: 'tokenFTM'
             },
             {
-                title: 'BNB',
+                title: 'ATOM',
                 icon: 'tokenATOM'
             },
         ],
