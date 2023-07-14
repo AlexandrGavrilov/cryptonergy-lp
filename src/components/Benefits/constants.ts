@@ -16,7 +16,7 @@ export const blocks = [
     },
     {
       title: 'Rebalancing & Diversification',
-      description: 'Enhance stability and growth with intelligent rebalancing and diversification tied into the core of Cryptonergy.',
+      description: 'Enhance stability and growth with intelligent rebalancing and diversification tied into the core of Cryptonergy',
       img: 'benefitsB4',
     },
     {

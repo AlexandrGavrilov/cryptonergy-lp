@@ -67,7 +67,7 @@ const Benefits = () => {
                             variants={variants.blockItem}
                             transition={{duration: 0.3}}
                         >
-                            {t(description)}
+                            {t(`benefits.${description}`)}
                         </SBlockDescription>
                     </SBlockWrapper>
                 ))}
