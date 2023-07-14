@@ -2,28 +2,28 @@ export const blocks = [
     {
         title: 'Step 1',
         icon: 'howItWorksB1',
-        description: 'Register on Cryptonergy and connect the crypto wallet that you use.',
+        description: 'Create a profile on Cryptonergy and connect your crypto wallet',
     },
     {
         title: 'Step 2',
         icon: 'howItWorksB2',
-        description: 'Invest your token in select matched vault with the right yield and riskiness.',
+        description: 'Choose a suitable yield and riskiness and invest your token in the selected matched vault',
 
     },
     {
         title: 'Step 3',
         icon: 'howItWorksB3',
-        description: 'Automatically begin earning with highest APY on the market. Enjoy!',
+        description: 'Monitor the platform automatically managing your assets and delivering earnings with a high APY',
     },
     {
         title: 'Step 4',
         icon: 'howItWorksB4',
-        description: 'Your interest is used to purchase more of the asset and reinvested automatically.',
+        description: 'Notice your interest being reinvested automatically to generate more income for you',
     },
     {
         title: 'Step 5',
         icon: 'howItWorksB5',
-        description: 'Withdraw your earn by token at any time.',
+        description: 'Withdraw your earnings by token any time you want',
     },
 ] as const;
 

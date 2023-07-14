@@ -30,13 +30,13 @@ const Benefits = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('benefits.Maximum yield at your fingertips')}
+                    {t('benefits.Maximal yield at your fingertips')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('benefits.Everything you need in one platform')}
+                    {t('benefits.Why Choose Cryptonergy for Crypto Investing?')}
                 </SDescription>
             </STextWrapper>
             <SBlocksWrapper

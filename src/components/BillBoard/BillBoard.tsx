@@ -29,19 +29,19 @@ const BillBoard = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('billboard.Earn passive income with crypto')}
+                    {t('billboard.Join the Most Convenient Crypto Platform on the Market')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('billboard.Connect your wallet and make your fist deposit')}
+                    {t('billboard.Navigate the World of DeFi Easily with Cryptonergy')}
                 </SDescription>
                 <SButton
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    <Image size="md" name="lightning"/>{t('billboard.Launch App')}
+                    <Image size="md" name="lightning"/>{t('billboard.Join Now')}
                 </SButton>
             </SContentWrapper>
         </SWrapper>

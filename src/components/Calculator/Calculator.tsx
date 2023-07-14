@@ -62,13 +62,13 @@ const Calculator = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('calculator.Calculate your future returns')}
+                    {t('calculator.Predict your future growth with Cryptonergy')}
                 </STitle>
                 <SDescription
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('calculator.Select an asset and enter an amount to see how much your holdings will be worth in the future!')}
+                    {t('calculator.Calculate how your assets will multiply after making an investment with our platform')}
                 </SDescription>
                 <SInputsWrapper
                     variants={variants.text}
@@ -109,7 +109,7 @@ const Calculator = () => {
                     variants={variants.text}
                     transition={{duration: 0.3}}
                 >
-                    {t('calculator.Start Earning')}
+                    {t('calculator.Sign up')}
                 </SButton>
             </SCalculatorWrapper>
             <Chart value={profitValue}/>

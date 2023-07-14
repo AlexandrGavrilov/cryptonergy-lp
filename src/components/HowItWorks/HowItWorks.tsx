@@ -39,7 +39,7 @@ const HowItWorks = () => {
                     transition={{duration: 0.5}}
                     viewport={{once: true, margin: isMobile ? '150px' : undefined}}
                 >
-                    {t('howItWorks.Relax and enjoy your boosted and optimized yield')}
+                    {t('howItWorks.Start Your Crypto Journey in a Few Clicks')}
                 </SDescription>
             </STextWrapper>
             <SBlocksWrapper
