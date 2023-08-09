@@ -6,7 +6,6 @@ import {AnimatePresence} from "framer-motion";
 
 import {useThemeStore} from "@/store/theme";
 import Layout from "@/components/Layout";
-import {useHelperStore} from "@/store/helper";
 import DetectDevice from "@/components/DetectDevice";
 import Head from "next/head";
 
@@ -16,7 +15,6 @@ import './globals.css';
 
 const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => {
     const {theme} = useThemeStore();
-    const {detected} = useHelperStore();
 
     return (
         <SWrapper>
@@ -48,11 +46,9 @@ const MyApp: FC<AppProps & { isMobile: boolean }> = ({Component, pageProps}) => 
             <DetectDevice/>
             <ThemeProvider theme={themes[theme]}>
                 <AnimatePresence>
-                    {detected && (
-                        <Layout>
-                            <Component {...pageProps} />
-                        </Layout>)
-                    }
+                    <Layout>
+                        <Component {...pageProps} />
+                    </Layout>)
                 </AnimatePresence>
             </ThemeProvider>
         </SWrapper>
